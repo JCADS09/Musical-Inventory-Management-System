@@ -10,11 +10,35 @@
   </div>
  <div class="col-md-12">
     <div class="panel">
-      <!--
-      <div class="jumbotron text-center">
-         <h1>Welcome User <hr> Inventory Management System</h1>
-         <p>Browes around to find out the pages that you can access!</p>
-      </div> -->
+ 
+
+    <link rel="stylesheet" href="tuner-master/app/style.css" />
+  </head>
+  <body>
+    <canvas class="frequency-bars"></canvas>
+    <div class="meter">
+      <div class="meter-dot"></div>
+      <div class="meter-pointer"></div>
+    </div>
+    <div class="notes">
+      <div class="notes-list"></div>
+      <div class="frequency">
+        <span>Hz</span>
+      </div>
+    </div>
+    <div class="a4">A<sub>4</sub> = <span>440</span> Hz</div>
+    <label class="auto">
+      Auto
+      <input type="checkbox" checked />
+    </label>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aubiojs@0.1.1/build/aubio.min.js"></script>
+    <script src="tuner-master/app/tuner.js"></script>
+    <script src="tuner-master/app/meter.js"></script>
+    <script src="tuner-master/app/frequency-bars.js"></script>
+    <script src="tuner-master/app/notes.js"></script>
+    <script src="tuner-master/app/app.js"></script>
+
     </div>
  </div>
 </div>

@@ -75,8 +75,9 @@
   </li>
 
   <li>
-    <a href="tuner-master/app/index.php">
-      <i class="glyphicon glyphicon-credit-card"></i>
+    <!-- <a href="tuner-master/app/index.php"> -->
+    <a href="home.php" >
+      <i class="glyphicon glyphicon-music"></i>
       <span>Tuner</span>
     </a>
   </li>
