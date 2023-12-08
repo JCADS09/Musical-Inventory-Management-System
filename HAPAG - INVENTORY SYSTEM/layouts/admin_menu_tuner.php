@@ -1,6 +1,6 @@
 <ul>
   <li>
-    <a href="admin.php">
+    <a href="../../admin.php">
       <i class="glyphicon glyphicon-home"></i>
       <span>Homepage</span>
     </a>
@@ -8,7 +8,7 @@
   <li>
 
   <li>
-    <a href="group.php">
+    <a href="../../group.php">
       <i class="glyphicon glyphicon-user"></i>
       <span>Manage Groups</span>
     </a>
@@ -16,7 +16,7 @@
   <li>
 
   <li>
-    <a href="users.php">
+    <a href="../../users.php">
       <i class="glyphicon glyphicon-user"></i>
       <span>Manage Users</span>
     </a>
@@ -35,7 +35,7 @@
   </li> -->
 
   <li>
-    <a href="product.php">
+    <a href="../../product.php">
       <i class="glyphicon glyphicon-user"></i>
       <span>Manage Products</span>
     </a>
@@ -44,7 +44,7 @@
   <li>
 
   <li>
-    <a href="categorie.php" >
+    <a href="../../categorie.php" >
       <i class="glyphicon glyphicon-indent-left"></i>
       <span>Product Category</span>
     </a>
@@ -68,14 +68,14 @@
    </ul>
   </li> -->
   <li>
-    <a href="media.php" >
+    <a href="../../media.php" >
       <i class="glyphicon glyphicon-picture"></i>
       <span>Browse Products</span>
     </a>
   </li>
 
   <li>
-    <a href="tuner-master/app/index.php">
+    <a href="index.php">
       <i class="glyphicon glyphicon-credit-card"></i>
       <span>Tuner</span>
     </a>
@@ -94,7 +94,7 @@
   </li> -->
 
   <li>
-    <a href="sales.php">
+    <a href="../../sales.php">
       <i class="glyphicon glyphicon-credit-card"></i>
       <span>Sales</span>
     </a>
@@ -110,7 +110,7 @@
       </a>
       <ul class="nav submenu">
         <li><a href="sales_report.php">Sales by dates </a></li>
-        <li><a href="monthly_sales.php">Monthly sales</a></li>
+        <li><a href="onthly_sales.php">Monthly sales</a></li>
         <li><a href="daily_sales.php">Daily sales</a> </li>
       </ul>
   </li>

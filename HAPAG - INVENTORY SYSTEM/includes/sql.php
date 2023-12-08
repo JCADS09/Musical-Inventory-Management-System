@@ -1,5 +1,5 @@
 <?php
-  require_once('includes/load.php');
+  require_once('load.php');
 
 /*--------------------------------------------------------------*/
 /* Function for find all database table rows by table name
