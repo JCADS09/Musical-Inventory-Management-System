@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body 
+{
+  background: url('LoginBanner.jpg');
+  background-size: cover;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+*
+{
+	font-family: poppins;
+	margin: 0;
+	padding: 0;
+  color: black;
+}
+
+p
+{
+  font-size: 30px;
+}
+
+
+ul
+{
+  list-style-type:none;
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  
+}
+
+li 
+{
+	float: right;
+  margin-right: 18px;
+}
+
+li a 
+{
+	text-align: center;
+	padding: 17px 26px;
+ 	text-decoration: none;	
+}
+
+li a:hover 
+{
+  text-decoration: underline;
+  color: rgb(146, 146, 255);
+}
+
+.login {
+  width: 500px;
+  padding: 8% 0 0;
+  margin: auto;
+  font-family: 'Comfortaa', cursive;
+  border-radius: 50px;
+  float:right;
+  margin-right: 1in;
+
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #e9f5fd;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  border-radius: 50px;
+  background: #fafeff;
+  box-shadow:  -11px 11px 22px #d6d6d6, 11px -11px 22px #ffffff;
+}
+
+.form input {
+  outline: 0;
+  background: #faf9f9;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Comfortaa', cursive;
+
+}
+
+.form input:focus {
+  background: #e3ffff;
+}
+
+.form button {
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  outline: 0;
+  background: #fc5d5d;
+  width: 100%;
+  border: 0;
+  border-radius: 20px;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover
+{
+  background: #db5151;
+  transition: ease-in 0.3s;
+}
+
+.form button:active {
+  background: #8d2f2f;
+}
+
+
+
