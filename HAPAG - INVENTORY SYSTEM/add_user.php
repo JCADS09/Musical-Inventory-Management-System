@@ -16,11 +16,12 @@
        $name   = remove_junk($db->escape($_POST['full-name']));
        $email   = remove_junk($db->escape($_POST['email']));
        $password   = remove_junk($db->escape($_POST['password']));
+       $branch   = remove_junk($db->escape($_POST['branch']));
        $user_level = (int)$db->escape($_POST['level']);
        $password = sha1($password);
 
-       $query = ("INSERT INTO users (name,email, password,user_level, status,verify) 
-        VALUES ('$name','$email','$password','$user_level', 1,0)");
+       $query = ("INSERT INTO users (name,email, password,user_level,branch, status,verify) 
+        VALUES ('$name','$email','$password','$user_level','$branch', 1,0)");
 
         if($db->query($query)){         
                            
@@ -102,6 +103,17 @@
                 <label for="password">Password</label>
                 <input type="password" class="form-control" name ="password"  placeholder="Password" minlength="8" required>
             </div>
+
+                            <div class="form-group">
+                            <label>Branch</label>
+                            <select class="form-control" id="branch" name="branch">
+                                <option value="" selected disabled>-Select Branch-</option>
+                                <option value="1ST">1ST Branch</option>
+                                <option value="2ND">2ND Branch</option>
+                                <option value="4RD">3RD Branch</option>
+                            </select>
+                            </div>
+
             <div class="form-group">
               <label for="level">User Role</label>
                 <select class="form-control" name="level">
@@ -110,6 +122,7 @@
                 <?php endforeach;?>
                 </select>
             </div>
+            
             <div class="form-group clearfix">
               <button type="submit" name="add_user" class="btn btn-primary">Add User</button>
             </div>
